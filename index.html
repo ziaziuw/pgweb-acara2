@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        main {
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BANDAR LAMPUNG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#deskripsi">Deskripsi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#penduduk">Penduduk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kecamatan">Kecamatan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#website">Website</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeri">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#peta">Peta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kritiksaran">Kritik dan Saran</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Pembuat</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container border border-warning rounded">
+            <div class="alert alert-warning text-center" role="alert">
+                <h1>KOTA BANDAR LAMPUNG</h1>
+                <h4>Provinsi Lampung</h4>
+            </div>
+
+            <div class="row">
+                <div class="col-6 offset-3">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/46703-tugu-adipura-bandar-lampung.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/gapura-bandar-lampung-city_20150722_214640.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Sgiger.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header alert alert-warning">
+                    <h4 id="deskripsi">Deskripsi</h4>
+                </div>
+                <div class="card-body">
+                    <p>Kota Bandar Lampung adalah sebuah kota di Indonesia sekaligus ibu kota provinsi dan kota terbesar
+                        di
+                        provinsi Lampung. Dengan kepadatan 5.332/km², Kota Bandar Lampung merupakan salah satu kota
+                        terpadat di
+                        Pulau Sumatra, serta termasuk salah satu kota besar dan kota terpadat di Indonesia, khususnya di
+                        luar
+                        Pulau Jawa.
+                    </p>
+                    <p>Secara geografis, Kota ini merupakan gerbang utama Pulau Sumatra, tepatnya kurang lebih 165 km
+                        sebelah
+                        barat laut Jakarta, memiliki andil penting dalam jalur transportasi darat dan aktivitas
+                        pendistribusian
+                        logistik dari Jawa menuju Sumatra maupun sebaliknya.
+                    </p>
+                    <p>Kota Bandar Lampung memiliki luas wilayah daratan 169,21 km² yang terbagi ke dalam 20 Kecamatan
+                        dan 126
+                        Kelurahan dengan populasi penduduk 1.166.066[8] jiwa (berdasarkan hasil sensus penduduk
+                        2020).[9]
+                        Sedangkan menurut Kemendagri, jumlah penduduk kota Bandar Lampung sebanyak 1.096.936 jiwa pada
+                        pertengahan tahun 2023.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header alert alert-warning">
+                    <h4 id="penduduk">Penduduk</h4>
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped table-bordered">
+                        <tr class="text-center">
+                            <th>Penduduk</th>
+                            <th>Jumlah</th>
+                        </tr>
+                        <tr>
+                            <td>Laki-laki</td>
+                            <td>603.532 Jiwa</td>
+                        </tr>
+                        <tr>
+                            <td>Perempuan</td>
+                            <td>594.066 Jiwa</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td>1.197.598</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header alert alert-warning">
+                    <h4 id="kecamatan">Kecamatan</h4>
+                </div>
+                <div class="card-body">
+
+                    <ol>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <li>Bumi Waras</li>
+                                <li>Enggal</li>
+                                <li>Kedamaian</li>
+                                <li>Kedaton</li>
+                                <li>Kemiling</li>
+                                <li>Labuhan Ratu</li>
+                                <li>Langkapura</li>
+                                <li>Panjang</li>
+                                <li>Rajabasa</li>
+                                <li>Sukabumi</li>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <li>Sukarame</li>
+                                <li>Tanjung Senang</li>
+                                <li>Tanjung Karang Barat</li>
+                                <li>Tanjung Karang Pusat</li>
+                                <li>Tanjung Karang Timur</li>
+                                <li>Teluk Betung Barat</li>
+                                <li>Teluk Betung Selatan</li>
+                                <li>Teluk Betung Timur</li>
+                                <li>Teluk Betung Utara</li>
+                                <li>Way Halim</li>
+                            </div>
+                        </div>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header alert alert-warning">
+                    <h4 id="website">Website</h4>
+                </div>
+                <div class="card-body">
+                    <a href="https://bandarlampungkota.go.id/" target="_blank"
+                        rel="noopener noreferrer">https://bandarlampungkota.go.id/</a>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header alert alert-warning">
+                    <h4 id="galeri">Galeri</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="images/46703-tugu-adipura-bandar-lampung.jpg" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="images/gapura-bandar-lampung-city_20150722_214640.jpg" class="img-fluid"
+                                alt="...">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="images/Sgiger.jpg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header alert alert-warning">
+                    <h4 id="peta">Peta</h4>
+                </div>
+                <div class="card-body">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="746" height="695" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=Kota+Bandar+Lampung&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://textcaseconvert.com"></a><br><a
+                                href="https://www.alarm-clock.net"></a><br>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: center;
+                                    height: 695px;
+                                    width: 100%;
+                                }
+                            </style><a href="https://www.ongooglemaps.com">custom google maps embed</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 695px;
+                                    width: 100%;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header alert alert-warning">
+                    <h4 id="kritiksaran">Kritik dan Saran</h4>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Isikan nama Anda">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Kritik dan saran</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="text-end">
+                        <button type="button" class="btn btn-primary">Kirim</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Pembuat</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Nama : Adinda Fauzia Azizah <br>
+                            NIM : 23/515141/SV/22484 <br>
+                            Kelas : A
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                            <button type="button" class="btn btn-primary">Simpan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
